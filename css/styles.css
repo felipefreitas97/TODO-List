@@ -1,0 +1,33 @@
+#titulo{color: rgba(63, 63, 63, 0.863);
+text-align: center;}
+
+#tituloLista{color: rgba(63, 63, 63, 0.863);
+    text-align: center;
+    font-size: medium;}
+
+#listaTarefas{
+    text-align: center;
+}
+
+#txtCadastroTarefas{ font-size:medium;
+}
+
+th{
+    font-size: small;
+    font-weight: 500;
+}
+td{ font-size:smaller;
+    font-weight: 400;
+}
+
+#listaTarefas{
+    text-align: center;
+    border-color: rgba(250, 247, 247, 0.253);
+    background-color: rgba(169, 169, 169, 0.288);
+}
+
+button{
+    border-radius: 1px;
+    border-color:  rgba(163, 165, 167, 0.212);
+    background-color: rgba(4, 74, 121, 0.445);
+}

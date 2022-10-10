@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <h1 id="titulo">To Do List</h1>
+        <div id="Cadastrar" > 
+            <label id="txtCadastroTarefas">Cadastrar tarefas:</label> 
+            <button id="adicionar">  +  </button></div>
+            <div>
+            <form id="cadastroTarefa" style="display:none ;">
+                <label>Nome:</label><input type="Cadastro" id="nome">
+                <label>Categoria:</label> <input type="Cadastro" id="categoria">
+                <label>Descrição:</label> <input type="Cadastro" id="descricao">
+                <label>Prioridade:</label> 
+                <select id="option">
+                    <option value="1">Muito Alta</option>
+                    <option value="2">Alta</option>
+                    <option value="3">Média</option>
+                    <option value="4">Baixa</option>
+                    <option value="5">Muito Baixa</option>
+                  </select>
+                  <label>Status:</label> 
+                  <select id="status">
+                    <option value="1">Para fazer</option>
+                    <option value="2">Fazendo</option>
+                    <option value="3">Feito</option>
+                  </select>
+                <label> Data de término: <input type="date" id="dataTermino"></label>
+                <label><button id="finalizarCadastro">  Finalizar  </button>
+                <button id="cancelarCadastro">  Cancelar  </button> </label>
+                </form> 
+            </div>
+            <div>
+                <table id="listaTarefas" border="1px">
+                    <h5 id="tituloLista">Lista de Tarefas</h1>
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Descrição</th>
+                    <th>Prioridade</th>
+                    <th>Status</th>
+                    <th>Data de término</th>
+                    <tr>
+                        <td>Montar computador</td>
+                        <td>Trabalho</td>
+                        <td>Montar o computador com as peças novas e instalar Linux</td>
+                        <td>Alta</td>
+                        <td>Para fazer</td>
+                        <td>21/10/2022</td>
+                        <td><button class="editar">editar</button>
+                            <button class="deletar">delete</button>
+                            <button class="feito">feito</button></td>
+
+                    </tr>
+                </table>
+            </div>
+            <script>
+            </script>
+</body>
+</html>
